@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PhonePro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="phone">
+        <div id="phone-header">
+            <span>PhonePro</span>
+            <button id="close-btn">X</button>
+        </div>
+        <div id="apps">
+            <div class="app" data-app="police">
+                <img src="assets/icons/police.png" alt="Police">
+                <span>Polizei</span>
+            </div>
+            <div class="app" data-app="ambulance">
+                <img src="assets/icons/ambulance.png" alt="Ambulance">
+                <span>Ambulanz</span>
+            </div>
+            <div class="app" data-app="mechanic">
+                <img src="assets/icons/mechanic.png" alt="Mechanic">
+                <span>Mechaniker</span>
+            </div>
+            <div class="app" data-app="fire">
+                <img src="assets/icons/fire.png" alt="Fire">
+                <span>Feuerwehr</span>
+            </div>
+            <div class="app" data-app="whatsapp">
+                <img src="assets/icons/whatsapp.png" alt="WhatsApp">
+                <span>WhatsApp</span>
+            </div>
+            <div class="app" data-app="twitter">
+                <img src="assets/icons/twitter.png" alt="Twitter">
+                <span>Twitter</span>
+            </div>
+            <div class="app" data-app="camera">
+                <img src="assets/icons/camera.png" alt="Camera">
+                <span>Kamera</span>
+            </div>
+        </div>
+
+        <div id="app-content">
+            <!-- App Inhalte werden hier dynamisch geladen -->
+        </div>
+
+        <div id="incoming-call">
+            <span id="caller-name"></span>
+            <button id="accept-call">Annehmen</button>
+            <button id="end-call">Ablehnen</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
