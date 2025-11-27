@@ -10,7 +10,17 @@ ui_page 'html/index.html'
 files {
     'html/index.html',
     'html/style.css',
-    'html/script.js'
+    'html/script.js',
+    'html/assets/icons/police.png',
+    'html/assets/icons/ambulance.png',
+    'html/assets/icons/mechanic.png',
+    'html/assets/icons/fire.png',
+    'html/assets/icons/whatsapp.png',
+    'html/assets/icons/twitter.png',
+    'html/assets/icons/camera.png',
+    'html/assets/backgrounds/default.jpg',
+    'html/assets/ringtones/ringtone1.mp3',
+    'html/assets/ringtones/ringtone2.mp3'
 }
 
 shared_script 'config.lua'
