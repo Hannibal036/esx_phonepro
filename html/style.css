@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgba(0,0,0,0.5);
+}
+
+#phone {
+    width: 400px;
+    height: 700px;
+    background: #111;
+    border-radius: 20px;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    color: #fff;
+}
+
+#phone-header {
+    background: #222;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+#close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.app {
+    width: 80px;
+    height: 100px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.app img {
+    width: 60px;
+    height: 60px;
+}
+
+#app-content {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#incoming-call {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+}
+
+#incoming-call button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
